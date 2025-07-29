@@ -3,7 +3,7 @@ from langchain_groq import ChatGroq
 from langchain.prompts import ChatPromptTemplate
 
 # Set your Groq API Key
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "YOUR_API_KEY_HERE"
 
 # Initialize chat history in session state
 if 'messages' not in st.session_state:
